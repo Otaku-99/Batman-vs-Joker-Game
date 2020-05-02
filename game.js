@@ -31,15 +31,15 @@ function init(){
 	e1 = {
 		x : 150,
 		y : 50,
-		w : 60,
-		h : 60,
+		w : 80,
+		h : 80,
 		speed : 42,
 	};	
 	e2 = {
 		x : 300,
 		y : 150,
-		w : 60,
-		h : 60,
+		w : 90,
+		h : 90,
 		speed : 55,
 	};
 	e3 = {
@@ -52,29 +52,29 @@ function init(){
 		e4 = {
 		x : 600,
 		y : 220,
-		w : 60,
-		h : 60,
+		w : 100,
+		h : 100,
 		speed : 61,
 	};
 		e5 = {
 		x : 750,
 		y : 220,
-		w : 60,
-		h : 60,
+		w : 68,
+		h : 68,
 		speed : 75,
 	};
 		e6 = {
 		x : 900,
 		y : 220,
-		w : 60,
-		h : 60,
+		w : 80,
+		h : 80,
 		speed : 63,
 	};
 		e7 = {
 		x : 1050,
 		y : 220,
-		w : 60,
-		h : 60,
+		w : 120,
+		h : 120,
 		speed : 52,
 	};
 		
@@ -134,12 +134,12 @@ function update(){
 	//Batman state
 	if(Batman.moving==true){
 		Batman.x += Batman.speed;
-		score += 20;
+		score += 50;
 	}
 	//Looop check collision btw corona and Batman
 	for(let i=0;i<enemy.length;i++){
 		if(isColliding(enemy[i],Batman)){
-			score -= i*100;
+			score -= i*70;
 			if(score<0){
 				game_over = true;
 				alert("Game Over");
