@@ -27,3 +27,9 @@ Batman wants its Logo while not touching joker.
 * Update function to change the score after the movements of logo.
   1. Game over when score gets less than 0.
   2. Win when reached to the logo.
+  
+# Glimpse Of Game
+
+
+
+  
