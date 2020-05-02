@@ -2,13 +2,13 @@
 
 function load_images(){
 	Joker_image = new Image;
-	Joker_image.src = "Joker.png"
+	Joker_image.src = "images/Joker.png"
 
 	Batman_img = new Image;
-	Batman_img.src = "Batman.png"
+	Batman_img.src = "images/Batman.png"
 
 	DC_img = new Image;
-	DC_img.src = "Logo.png"
+	DC_img.src = "images/Logo.png"
 
 }
 
