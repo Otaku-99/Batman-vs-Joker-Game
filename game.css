@@ -1,0 +1,12 @@
+h1 {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.9);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 95%;
+}
+
+body{
+	background:  linear-gradient(to right, black,silver,black); /* Standard syntax */
+}
