@@ -37,5 +37,5 @@ Batman wants its Logo while not touching joker.
   # Glimpse 2
   ![](images/Glimpse_2.png)
 # Project Live
-* https://otaku-99.github.io/Batman-vs-Joker-Game/
+* https://otaku-99.github.io/Batman_vs_Joker_Game/
   
