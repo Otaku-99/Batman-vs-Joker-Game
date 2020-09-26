@@ -136,10 +136,10 @@ function update(){
 		Batman.x += Batman.speed;
 		score += 50;
 	}
-	//Looop check collision btw corona and Batman
+	//Looop check collision btw enemy and Batman
 	for(let i=0;i<enemy.length;i++){
 		if(isColliding(enemy[i],Batman)){
-			score -= i*70;
+			score -= (i+1)*50;
 			if(score<0){
 				game_over = true;
 				alert("Game Over");
